@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">When to stay direct vs escalate to managed runner</title>
+  <desc id="desc">Direct path for ordinary bounded work; managed runner when sandbox, guidance validation, telemetry, or audit artifacts are required.</desc>
+
+  <rect width="1200" height="360" rx="26" fill="#0B0D10"/>
+  <rect x="1" y="1" width="1198" height="358" rx="25" fill="none" stroke="#2A2F38" stroke-width="1.5"/>
+
+  <text x="56" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8B919A" letter-spacing="1.4">CORE RULE</text>
+  <text x="56" y="90" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="30" font-weight="700" fill="#F4F1EA">Two lanes. One owner of acceptance.</text>
+
+  <!-- Direct column -->
+  <g transform="translate(56 120)">
+    <rect width="520" height="196" rx="18" fill="#12231A" stroke="#2F6B4A"/>
+    <rect x="0" y="0" width="8" height="196" rx="4" fill="#7CDBA0"/>
+    <text x="32" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#7CDBA0">DEFAULT · DIRECT</text>
+    <text x="32" y="76" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#F4F1EA">Codex ↔ Claude Code</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" fill="#C8CDD5">
+      <text x="32" y="112">· Ordinary bounded implementation</text>
+      <text x="32" y="138">· Reading, review, small diffs</text>
+      <text x="32" y="164">· No six-section task file required</text>
+    </g>
+  </g>
+
+  <!-- Managed column -->
+  <g transform="translate(620 120)">
+    <rect width="524" height="196" rx="18" fill="#261C10" stroke="#8A5A20"/>
+    <rect x="0" y="0" width="8" height="196" rx="4" fill="#E8A54B"/>
+    <text x="32" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E8A54B">ESCALATE · MANAGED</text>
+    <text x="32" y="76" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#F4F1EA">scripts/claude-delegate.ps1</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" fill="#C8CDD5">
+      <text x="32" y="112">· User asks for sandbox / delegate</text>
+      <text x="32" y="138">· Guidance, telemetry, or audit artifacts</text>
+      <text x="32" y="164">· Disposable clone to protect main tree</text>
+    </g>
+  </g>
+</svg>

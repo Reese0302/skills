@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">How agent-workbench-runner works</title>
+  <desc id="desc">Six-step managed path: classify, confirm sandbox, inspect rules, route if needed, fill the six-section task contract, dry-run then run, and accept with Codex.</desc>
+
+  <defs>
+    <pattern id="grid2" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1A1F28" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="520" rx="26" fill="#0B0D10"/>
+  <rect x="1" y="1" width="1198" height="518" rx="25" fill="url(#grid2)" opacity="0.4"/>
+  <rect x="1" y="1" width="1198" height="518" rx="25" fill="none" stroke="#2A2F38" stroke-width="1.5"/>
+
+  <!-- header -->
+  <text x="56" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8B919A" letter-spacing="1.4">MANAGED RUNNER PATH</text>
+  <text x="56" y="92" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="32" font-weight="700" fill="#F4F1EA">Codex plans. Claude executes. Codex accepts.</text>
+  <text x="56" y="126" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" fill="#8B919A">Only when the Core Rule triggers — not for every ordinary task.</text>
+
+  <!-- step cards row 1 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif">
+    <!-- 01 -->
+    <g transform="translate(56 160)">
+      <rect width="250" height="130" rx="16" fill="#12161D" stroke="#2A2F38"/>
+      <text x="22" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E8A54B">01</text>
+      <text x="22" y="68" font-size="20" font-weight="600" fill="#F4F1EA">Classify</text>
+      <text x="22" y="96" font-size="15" fill="#8B919A">Direct by default.</text>
+      <text x="22" y="116" font-size="15" fill="#8B919A">Escalate on triggers.</text>
+    </g>
+
+    <!-- 02 -->
+    <g transform="translate(334 160)">
+      <rect width="250" height="130" rx="16" fill="#12161D" stroke="#2A2F38"/>
+      <text x="22" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E8A54B">02</text>
+      <text x="22" y="68" font-size="20" font-weight="600" fill="#F4F1EA">Confirm sandbox</text>
+      <text x="22" y="96" font-size="15" fill="#8B919A">Disposable clone only.</text>
+      <text x="22" y="116" font-size="15" fill="#8B919A">Protect main worktree.</text>
+    </g>
+
+    <!-- 03 -->
+    <g transform="translate(612 160)">
+      <rect width="250" height="130" rx="16" fill="#12161D" stroke="#2A2F38"/>
+      <text x="22" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E8A54B">03</text>
+      <text x="22" y="68" font-size="20" font-weight="600" fill="#F4F1EA">Inspect rules</text>
+      <text x="22" y="96" font-size="15" fill="#8B919A">AGENTS · learning cases</text>
+      <text x="22" y="116" font-size="15" fill="#8B919A">boundary matrix</text>
+    </g>
+
+    <!-- 04 -->
+    <g transform="translate(890 160)">
+      <rect width="250" height="130" rx="16" fill="#12161D" stroke="#2A2F38"/>
+      <text x="22" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E8A54B">04</text>
+      <text x="22" y="68" font-size="20" font-weight="600" fill="#F4F1EA">Route if useful</text>
+      <text x="22" y="96" font-size="15" fill="#8B919A">scan · plan</text>
+      <text x="22" y="116" font-size="15" fill="#8B919A">review · delegate</text>
+    </g>
+  </g>
+
+  <!-- connectors between row 1 -->
+  <path d="M306 225 H334" stroke="#3A4250" stroke-width="2"/>
+  <path d="M584 225 H612" stroke="#3A4250" stroke-width="2"/>
+  <path d="M862 225 H890" stroke="#3A4250" stroke-width="2"/>
+
+  <!-- row 2 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif">
+    <!-- 05 six sections -->
+    <g transform="translate(56 330)">
+      <rect width="528" height="140" rx="16" fill="#12161D" stroke="#2A2F38"/>
+      <text x="22" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E8A54B">05 · SIX-SECTION TASK CONTRACT</text>
+      <g transform="translate(22 58)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+        <rect x="0" y="0" width="148" height="28" rx="6" fill="#1A1F28" stroke="#2A2F38"/><text x="12" y="19" fill="#C8CDD5">Goal</text>
+        <rect x="160" y="0" width="148" height="28" rx="6" fill="#1A1F28" stroke="#2A2F38"/><text x="172" y="19" fill="#C8CDD5">Allowed Scope</text>
+        <rect x="320" y="0" width="168" height="28" rx="6" fill="#1A1F28" stroke="#2A2F38"/><text x="332" y="19" fill="#C8CDD5">Forbidden Actions</text>
+        <rect x="0" y="40" width="168" height="28" rx="6" fill="#1A1F28" stroke="#2A2F38"/><text x="12" y="59" fill="#C8CDD5">Acceptance Criteria</text>
+        <rect x="180" y="40" width="148" height="28" rx="6" fill="#1A1F28" stroke="#2A2F38"/><text x="192" y="59" fill="#C8CDD5">Verification</text>
+        <rect x="340" y="40" width="148" height="28" rx="6" fill="#1A1F28" stroke="#2A2F38"/><text x="352" y="59" fill="#C8CDD5">Report Req.</text>
+      </g>
+    </g>
+
+    <!-- 06 dry-run + accept -->
+    <g transform="translate(612 330)">
+      <rect width="528" height="140" rx="16" fill="#12161D" stroke="#2A2F38"/>
+      <text x="22" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E8A54B">06 · RUN + ACCEPT</text>
+      <g transform="translate(22 58)">
+        <rect x="0" y="0" width="150" height="58" rx="10" fill="#261C10" stroke="#8A5A20"/>
+        <text x="75" y="26" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#E8A54B">-DryRun</text>
+        <text x="75" y="46" text-anchor="middle" font-size="14" fill="#C8CDD5">preview first</text>
+
+        <path d="M162 29 H190" stroke="#3A4250" stroke-width="2" marker-end=""/>
+        <polygon points="188,24 200,29 188,34" fill="#3A4250"/>
+
+        <rect x="210" y="0" width="140" height="58" rx="10" fill="#1A1F28" stroke="#3A4250"/>
+        <text x="280" y="26" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#F4F1EA">real run</text>
+        <text x="280" y="46" text-anchor="middle" font-size="14" fill="#8B919A">.delegate-runs/</text>
+
+        <path d="M362 29 H390" stroke="#3A4250" stroke-width="2"/>
+        <polygon points="388,24 400,29 388,34" fill="#3A4250"/>
+
+        <rect x="410" y="0" width="96" height="58" rx="10" fill="#12231A" stroke="#2F6B4A"/>
+        <text x="458" y="26" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7CDBA0">ACCEPT</text>
+        <text x="458" y="46" text-anchor="middle" font-size="14" fill="#C8CDD5">Codex</text>
+      </g>
+    </g>
+  </g>
+</svg>

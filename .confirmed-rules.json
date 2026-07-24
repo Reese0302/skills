@@ -1,0 +1,244 @@
+{
+  "confirmed": [
+    {
+      "pattern": "tests/fixtures/skill-interaction-seed-iteration-draft.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/skill-interaction-seed-iteration-v02-misaligned-final.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/skill-interaction-seed-iteration-v01-final.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-prototype-run-brief-changed-slice-missing-checkpoint.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-prototype-run-brief-missing-parent.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-draft-seed-writeback-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-prototype-run-brief-changed-slice-v04.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/warning-rerun-appetite-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/forward-batch-seed-map-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-verification-status-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-iteration-ready-for-rerun-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/run-contract-tests.ps1",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-verify-without-evidence.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/forward-sudden-insight.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-validated-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": ".wayfinder/tickets/FQM-ITER-001-implementation.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/skill-interaction-seed-iteration-v02-final.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/skill-interaction-seed-iteration-v04-final.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-prototype-run-brief-changed-slice-v02.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-question-status-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/misaligned-prototype-run-brief-v02.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-changed-slice-lineage-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-question-map-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-validated-without-full-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": ".wayfinder/map-seed-prototype-iteration.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-dangling-relation.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/warning-question-map-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": ".wayfinder/",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-ready-without-evidence-goal-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-fully-verified-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "agents/",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-question-map.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/forward-bounded-map.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": ".wayfinder/tickets/",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-new-intent-without-link.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/forward-correction-map-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "assets/readme/",
+      "verdict": "include"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-returned-seed-brief-alignment-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-superseded-without-link-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "agents/openai.yaml",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-iteration-brief-metadata-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-ready-without-region-delta-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-fully-verified-v02.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-accepted-unverified-v03.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": ".wayfinder/spec-seed-prototype-iteration.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/invalid-mvp-parent.json",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/valid-prototype-run-brief-full-v03.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "tests/fixtures/skill-interaction-seed-iteration-v03-final.md",
+      "verdict": "exclude"
+    },
+    {
+      "pattern": "assets/readme/fragile-question-map-three-problems.gif",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/",
+      "verdict": "include"
+    },
+    {
+      "pattern": "LICENSE",
+      "verdict": "include"
+    },
+    {
+      "pattern": "README-en.md",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/readme/decision-matrix.svg",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/readme/hero.svg",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/readme/section-commands.svg",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/readme/section-how.svg",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/readme/section-safety.svg",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/readme/section-when.svg",
+      "verdict": "include"
+    },
+    {
+      "pattern": "assets/readme/workflow.svg",
+      "verdict": "include"
+    }
+  ]
+}

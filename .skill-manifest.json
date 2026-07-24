@@ -1,0 +1,78 @@
+{
+  "host": "agents",
+  "scope": "user",
+  "skills": {
+    "wiki": {
+      "mode": "source",
+      "source": "F:/agents/skills/wiki/",
+      "installed": "2026-07-02",
+      "compatibility": "native-ready"
+    },
+    "reflect-lint": {
+      "mode": "source",
+      "source": "F:/agents/skills/reflect-lint/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "design-an-interface": {
+      "mode": "source",
+      "source": "F:/agents/skills/design-an-interface/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "prototype": {
+      "mode": "source",
+      "source": "F:/agents/skills/prototype/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "diagnosing-bugs": {
+      "mode": "source",
+      "source": "F:/agents/skills/diagnosing-bugs/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "review": {
+      "mode": "source",
+      "source": "F:/agents/skills/review/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "to-prd": {
+      "mode": "source",
+      "source": "F:/agents/skills/to-prd/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "writing-great-skills": {
+      "mode": "source",
+      "source": "F:/agents/skills/writing-great-skills/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "teach": {
+      "mode": "source",
+      "source": "F:/agents/skills/teach/",
+      "installed": "2026-07-03",
+      "compatibility": "native-ready"
+    },
+    "storage-analyzer": {
+      "mode": "source",
+      "source": "F:/agents/skills/storage-analyzer/",
+      "installed": "2026-07-05",
+      "compatibility": "native-ready"
+    },
+    "agent-reach": {
+      "mode": "source",
+      "source": "F:/agents/skills/agent-reach/",
+      "installed": "2026-07-09",
+      "compatibility": "native-ready"
+    },
+    "primary-source-research": {
+      "mode": "source",
+      "source": "F:/agents/skills/primary-source-research/",
+      "installed": "2026-07-10",
+      "compatibility": "native-ready"
+    }
+  }
+}
